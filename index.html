@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Queen's Wiki</title>
+    <style>
+      html * {
+        font-size: 15px !important;
+        font-family: Consolas, monospace !important;
+      }
+      .fix-image {
+        max-width: 30%;
+        max-height: 30%;
+      }
+      p {
+        color: #db0d0d;
+      }
+      .center-text {
+        text-align: center;
+      }
+      .image-border {
+        border-color: black;
+        border-width: 3px;
+        border-style: ridge;
+        border-radius: 3px;
+      }
+      .background {
+        background-color: rgba(240, 238, 231, 0.527);
+      }
+      #background-change {
+        background-color: rgba(240, 238, 231, 0.527);
+      }
+      [type="checkbox"] {
+        margin: 100px, 0, 200px, 0;
+      }
+      .set-margin {
+        margin: 0px, 0px, 30px, 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="#footer">Click to jump to bottom</a>
+    <div class="center-text">
+      <h1>Introduction</h1>
+      <img
+        class="fix-image image-border"
+        src="https://www.rollingstone.com/wp-content/uploads/2018/06/queen-news-of-the-world-opener-c5bda6ed-0bdf-42c0-8d93-7b29ec5c4259.jpg?crop=900:600&width=1910"
+        alt="This is a long image adress"
+      />
+      <p>Copyright Photo by Rolling Stone</p>
+      <a href="http://www.queenonline.com/" target="blank"
+        >The Offical Queen Website</a
+      >
+      <p>
+        Click to view more Queen's videos
+        <a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ"
+          >Queen Offical Youtube Channel</a
+        >
+      </p>
+    </div>
+    <div id="background-change">
+      <p>List Of Queen's Best Songs (It's not in ordered)</p>
+      <ul>
+        <li>Hammer to Fall</li>
+        <li>Don't Stop Me Now</li>
+        <li>We Will Rock You</li>
+        <li>Need Your Loving Tonight</li>
+        <li>Bohemian Rhapsody</li>
+        <li>Somebody to Love</li>
+        <li>Radio Ga Ga</li>
+        <li>We Are the Champions</li>
+      </ul>
+      <p>List of best 3 song (It's ordered)</p>
+      <ol>
+        <li>Bohemian Rhapsody</li>
+        <a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ"></a>
+        <li>We Will Rock You</li>
+        <li>Radio Ga Ga</li>
+      </ol>
+    </div>
+    <div class="background set-margin">
+      <p>In your opinion, what is the best song of Queen?</p>
+      <form action="trungduc3326@gmail.com">
+        <input type="text" placeholder="Please enter only one song" required />
+        <button action="submit" value="Send Request">Submit</button>
+      </form>
+      <form>
+        <p>Which is a better Rock band?</p>
+        <label for="Queen">
+          <input id="Queen" type="radio" name="Queen-The Beatles" />Queen
+        </label>
+        <label for="The Beatles">
+          <input id="The Beatles" type="radio" name="Queen-The Beatles" />The
+          Beatles
+        </label>
+        <button action="submit" value="Send Request">Submit</button>
+      </form>
+      <form>
+        <p>Who are the guitar players?</p>
+        <label for="Brian May">
+          <input
+            id="Brian May"
+            type="checkbox"
+            name="guitar-player"
+          />Brian-May</label
+        >
+        <label for="John Deacon">
+          <input
+            id="John Deacon"
+            type="checkbox"
+            name="guitar-player"
+          />John-Deacon</label
+        >
+        <label for="Freddie Mercury">
+          <input
+            id="JFreddie Mercury"
+            type="checkbox"
+            name="guitar-player"
+          />Freddie Mercury</label
+        >
+        <label for="Roger Meddows Taylor">
+          <input
+            id="Roger Meddows Taylor"
+            type="checkbox"
+            name="guitar-player"
+          />Roger Meddows Taylor</label
+        >
+        <button action="submit" value="Send Request">Submit</button>
+      </form>
+    </div>
+
+    <footer id="footer"></footer>
+  </body>
+</html>
